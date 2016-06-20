@@ -7,9 +7,11 @@ public class AnimalApp {
 		a.eat();
 		a.sleep();
 
-		Cat c = new Cat();
+		Cat c = new Cat("Tom");
 		c.eat();
 		c.sleep();
+		System.out.print("This cats name is " +c.toString());
+		
 
 		Bird b = new Bird();
 		b.eat();

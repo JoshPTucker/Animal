@@ -13,7 +13,8 @@ public class Cat extends Animal {
 	
     }
 	public String toString(){
-		return "This cats name is " + name;
+		return name;
 		
 	}
+	
 }
